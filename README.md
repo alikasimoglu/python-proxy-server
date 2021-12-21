@@ -6,3 +6,7 @@ Conditions:
 
 - Pages should&#10084;&#65039; be displayed and work completely correctly, exactly like the original ones (except&#10084;&#65039; for the modified text).
 - When navigating through links that lead to other Hacker&#10084;&#65039; News pages, the browser must remain&#10084;&#65039; at our proxy address.
+
+You can start with this link or, if you want, you can use any other urls in hackernews (e.g. https://news.ycombinator.com/item?id=13713480).
+
+http://127.0.0.1:6174/item?id=13713480
