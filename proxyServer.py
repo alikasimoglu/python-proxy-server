@@ -17,7 +17,7 @@ class HackerProxy(http.server.SimpleHTTPRequestHandler):
 
         s_html = requests.get(url)
         s_html_splitted = re.split('(<[^>]*>)', s_html.text)
-        s_html_list = [i for i in " ".join(s_html_splitted).split(" ") if i != " "]
+        s_html_list = [i for i in " ".join(s_html_splitted).split(" ")]
         result = []
 
         for x in s_html_list:
